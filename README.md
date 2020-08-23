@@ -26,9 +26,9 @@ The instance segmentation accuracy mAP is up to 80% computed using the mask-leve
 
 # Setup for training on custom dataset
 To apply the code to a custom dataset, you need do the following items:
-(1) Prepare raw images and labeled masks for train/val/test.
-(2) Download the pretrained [yolov3.weights]( https://pjreddie.com/darknet/yolo/) and convert it to a “.ckpt” file. Please note that the original yolov3.weights has been trained for 80 common object classes. For custom dataset with different number of classes, you can manually crop the last class prediction channel, or select the relevant layers for restoring weight in “train_yolo3_mask.py”.
-(3) Change settings in config.py, such as MODEL_PATH, CLASSES and ANCHORS, etc.
+1. Prepare raw images and labeled masks for train/val/test.
+2. Download the pretrained [yolov3.weights]( https://pjreddie.com/darknet/yolo/) and convert it to a “.ckpt” file. Please note that the original yolov3.weights has been trained for 80 common object classes. For custom dataset with different number of classes, you can manually crop the last class prediction channel, or select the relevant layers for restoring weight in “train_yolo3_mask.py”.
+3. Change settings in config.py, such as MODEL_PATH, CLASSES and ANCHORS, etc.
 
 # References:
 1. Li S, Zhao X and Zhou G. Automatic pixel‐level multiple damage detection of concrete structure using fully convolutional network. Comput-Aided Civ Inf Eng 2019; 34: 616–634.
