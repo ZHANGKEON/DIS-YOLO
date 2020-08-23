@@ -10,10 +10,10 @@ The proposed network consists of a fast single-stage detector YOLOv3 for box-lev
 <div align=center><img src="https://github.com/ZHANGKEON/DIS-YOLO/blob/master/output/architecture.jpg"/></div>
 
 # Concrete defect dataset
-A dataset with mask labeling of three major types of concrete surface defects: crack, spalling and exposed rebar, was prepared for training and testing of the DIS-YOLO model. In this dataset, three open-domain datasets [1-3] are exploited and merged with a bridge inspection image dataset from the Highways Department. To use the dataset[dataset](https://drive.google.com/file/d/1-g77ciKmHNIK_YD0z8puECtEirsOg01Z/view?usp=sharing), you need comply with the terms and conditions of using the images from the Highways Department, therefore please write a statement and e-mail it to: czhangbd@connect.ust.hk.
+A dataset with mask labeling of three major types of concrete surface defects: crack, spalling and exposed rebar, was prepared for training and testing of the DIS-YOLO model. In this dataset, three open-domain datasets [1-3] are exploited and merged with a bridge inspection image dataset from the Highways Department. To use the dataset[dataset]( https://drive.google.com/file/d/1-g77ciKmHNIK_YD0z8puECtEirsOg01Z/view?usp=sharing), you need comply with the terms and conditions of using the images from the Highways Department, therefore please write a statement and e-mail it to: czhangbd@connect.ust.hk.
 
 # Setup for training and testing
-1. Download the pretrained weights [modified Yolov3 weights](https://drive.google.com/drive/folders/1LDE08DwQaA79-lq7NKPU7ieb_DOh9VSk?usp=sharing) and put it into the folder “pretrained_weights”.
+1. Download the pretrained weights [modified Yolov3 weights]( https://drive.google.com/drive/folders/1LDE08DwQaA79-lq7NKPU7ieb_DOh9VSk?usp=sharing) and put it into the folder “pretrained_weights”.
 2. Change MODEL_PATH and relevant training parameters in config.py. 
 3. Create “train”, “val” and “test” folders in the “data” folder, and put the downloaded data into each folder according to the format of "train_sample". Then, run “pre_process.py” to get “ground_truth_cache.pkl” for each folder. 
 4. Train model using different transfer learning and fine-tuning strategies. To fine-tune specific layers, please adjust “lock = True/False” for relevant layers in yolo3_net_pos.py.
@@ -30,7 +30,8 @@ To apply the code to a custom dataset, you need do the following items:
 2. Download the pretrained [yolov3.weights]( https://pjreddie.com/darknet/yolo/) and convert it to a “.ckpt” file. Please note that the original yolov3.weights has been trained for 80 common object classes. For custom dataset with different number of classes, you can manually crop the last class prediction channel, or select the relevant layers for restoring weight in “train_yolo3_mask.py”.
 3. Change settings in config.py, such as MODEL_PATH, CLASSES and ANCHORS, etc.
 
-# References:
+# Open source dataset from
+
 1. Li S, Zhao X and Zhou G. Automatic pixel‐level multiple damage detection of concrete structure using fully convolutional network. Comput-Aided Civ Inf Eng 2019; 34: 616–634.
 2. Yang L, Li B, Li W, et al. Semantic metric 3D reconstruction for concrete inspection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, Salt Lake City, UT, 18–22 June 2018, pp.1624–1632.
 3. Yang X, Li H, Yu Y, et al. Automatic pixel‐level crack detection and measurement using fully convolutional network. Comput-Aided Civ Inf Eng 2018; 33: 1090–1109.
