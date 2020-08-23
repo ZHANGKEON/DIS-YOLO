@@ -1,0 +1,1 @@
+Create "verify" folder if "do_verification = True" in pre_process.py.

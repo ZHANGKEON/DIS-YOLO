@@ -1,0 +1,1 @@
+[Optional] In this folder, you can manually define bounding box annotation of the image to merge the labelled masks for an instance.

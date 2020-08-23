@@ -1,0 +1,1 @@
+The training loss and validation accuracy of each epoch will be saved in NumPy format in this file.
