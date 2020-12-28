@@ -34,6 +34,6 @@ To apply the code to a custom dataset, you need do the following items:
 1. Li S, Zhao X and Zhou G. Automatic pixel‐level multiple damage detection of concrete structure using fully convolutional network. Comput-Aided Civ Inf Eng 2019; 34: 616–634.
 2. Yang L, Li B, Li W, et al. Semantic metric 3D reconstruction for concrete inspection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, Salt Lake City, UT, 18–22 June 2018, pp.1624–1632.
 3. Yang X, Li H, Yu Y, et al. Automatic pixel‐level crack detection and measurement using fully convolutional network. Comput-Aided Civ Inf Eng 2018; 33: 1090–1109.
-4. Zhang C, Chang C, Jamshidi M, Simultaneous Pixel-level Concrete Defect Detection and Grouping using a Fully Convolutional Model, Struct. Health Monit 2021 (at publication stage).
+4. Zhang C, Chang CC and Jamshidi M. Concrete bridge surface damage detection using a single‐stage detector. Comput-Aided Civ Inf Eng 2020; 35: 389–409.
 # Citation
-...
+Zhang C, Chang C, Jamshidi M, Simultaneous Pixel-level Concrete Defect Detection and Grouping using a Fully Convolutional Model, Struct. Health Monit 2021 (at publication stage).
