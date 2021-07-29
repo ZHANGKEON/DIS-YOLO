@@ -9,7 +9,7 @@ The proposed network consists of a fast single-stage detector YOLOv3 for box-lev
 
 <div align=center><img src="https://github.com/ZHANGKEON/DIS-YOLO/blob/master/output/architecture.jpg"/></div>
 
-# Concrete defect [dataset]( https://drive.google.com/file/d/1-g77ciKmHNIK_YD0z8puECtEirsOg01Z/view?usp=sharing)
+# Concrete defect [dataset]( https://drive.google.com/file/d/1UbAnTFQWShtuHlGEvYYZ4TP8tL49IM8t/view?usp=sharing)
 A dataset with mask labeling of three major types of concrete surface defects: crack, spalling and exposed rebar, was prepared for training and testing of the DIS-YOLO model. In this dataset, three open-domain datasets [1-3] are exploited and merged with a bridge inspection image dataset [4] from the Highways Department. To use the dataset, you need comply with the terms and conditions of using the images from the Highways Department, therefore please write a statement and e-mail it to: czhangbd@connect.ust.hk.
 
 # Setup for training and testing
