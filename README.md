@@ -36,5 +36,5 @@ To apply the code to a custom dataset, you need do the following items:
 3. Yang X, Li H, Yu Y, et al. Automatic pixel‐level crack detection and measurement using fully convolutional network. Comput-Aided Civ Inf Eng 2018; 33: 1090–1109.
 4. Zhang C, Chang CC and Jamshidi M. Concrete bridge surface damage detection using a single‐stage detector. Comput-Aided Civ Inf Eng 2020; 35: 389–409.
 # Citation
-1. If you are using the dataset, please cite all papers that have contributed to the above dataset.
+1. If you are using the dataset, please cite the papers that have contributed to the above dataset, and cite the following paper:
 2. Zhang C, Chang C, Jamshidi M, Simultaneous Pixel-level Concrete Defect Detection and Grouping using a Fully Convolutional Model, Struct. Health Monit 2021.
