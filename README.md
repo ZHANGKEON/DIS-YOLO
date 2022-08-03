@@ -13,7 +13,7 @@ The proposed network consists of a fast single-stage detector YOLOv3 for box-lev
 A dataset with mask labeling of three major types of concrete surface defects: crack, spalling and exposed rebar, was prepared for training and testing of the DIS-YOLO model. In this dataset, three open-domain datasets [1-3] are exploited and merged with a bridge inspection image dataset [4] from the Highways Department. To use the dataset, you need comply with the terms and conditions of using the images from the Highways Department, therefore please write a statement and e-mail it to: czhangbd@connect.ust.hk.
 
 # Setup for training and testing
-1. Download the pretrained weights [modified Yolov3 weights]( https://drive.google.com/drive/folders/1LDE08DwQaA79-lq7NKPU7ieb_DOh9VSk?usp=sharing) and put it into the folder “pretrained_weights”.
+1. Download the pretrained weights [modified Yolov3 weights]( https://drive.google.com/drive/folders/17AKBUHB2q_E5HTZuInq-DF8GY1WP2jDd?usp=sharing) and put it into the folder “pretrained_weights”.
 2. Change MODEL_PATH and relevant training parameters in config.py. 
 3. Create “train”, “val” and “test” folders in the “data” folder, and put the downloaded data into each folder according to the format of "train_sample". Then, run “pre_process.py” to get “ground_truth_cache.pkl” for each folder. 
 4. Train model using different transfer learning and fine-tuning strategies. To fine-tune specific layers, please adjust “lock = True/False” for relevant layers in yolo3_net_pos.py.
